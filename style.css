@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    /* font-family: "Kanit", sans-serif; */
+    height: 100vh;
+    background-image:
+        linear-gradient(to bottom, #000000bb, #000000bb, #000000bb),
+        url('./img/TH-th-20241202-TRIFECTA-perspective_3eee2e4f-d5e7-458f-a971-f46bf86dc641_small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .header-cover {
+        /* background-color: aqua; */
+        box-sizing: border-box;
+        display: block;
+        height: 120px;
+        padding: 0px 80px;
+        /* width: 0px 80px; */
+    }
+
+    header {
+        /* background-color: rgb(196, 208, 255); */
+        display: flex;
+        display: inline-block;
+        height: 80px;
+    }
+
+    .logo-box {
+        /* background-color: rgb(43, 226, 220); */
+        display: inline-block;
+        margin-left: 16px;
+        width: 30%;
+        height: 76px;
+        justify-content: space-around;
+    }
+
+    #logo {
+        width: 50%;
+        /* width: 160px; */
+        /* height: 80px; */
+        text-align: left;
+        /* width: 20%; */
+    }
+
+    .language {
+        /* background-color: rgb(136, 165, 42); */
+        display: inline;
+        display: flex;
+        /* height: 38px; */
+        /* padding: 38px; */
+        width: 100%;
+    }
+
+    .language-a {
+        text-align: right;
+        display: inline;
+        display: inline-block;
+        width: 60%;
+        padding: 30px;
+    }
+
+    .language-si {
+        width: 20%;
+        padding: 3px;
+        border-radius: 4px;
+        font-size: 16px;
+        color: antiquewhite;
+        background-color: rgba(0, 0, 0, 0);
+        background-color: 0, 0, 0, 0;
+        background-clip: padding-box;
+    }
+
+    .lockin {
+        color: antiquewhite;
+        background-color: red;
+        border: 1px solid red;
+        border-radius: 3px;
+        padding: 7px;
+        font-size: 14px;
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .email input {
+        border: 1px solid #474747;
+        border-radius: 4px;
+        background-color:rgb(0, 0, 0);
+        padding: 14px;
+        width: 60%;
+        color: antiquewhite;
+    }
+
+    .text-box {
+        /* background-color: rgb(123, 0, 255); */
+        color: antiquewhite;
+        width: 55%;
+        padding: 10%;
+        text-align: center;
+        margin-left: 25%;
+        line-height: 50px;
+        /* margin-top: %; */
+    }
+
+    .h1-m {
+        font-size: 20px;
+    }
+
+    .p-m {
+        font-size: 15px;
+    }
+
+    .low-text {
+        display: flex;
+        display: inline;
+    }
+
+    .start {
+        color: antiquewhite;
+        text-decoration: none;
+        border: 1px solid red;
+        background-color: red;
+        border-radius: 3px;
+        padding: 11px;
+    }
